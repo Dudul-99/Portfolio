@@ -1,0 +1,83 @@
+---
+title: "Analyses du fichier Netflix"
+author: "Abdul BOURA"
+date: "2024-01-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Import des packages
+
+```{r}
+library(dplyr)
+library(RSQLite)
+library(sqldf)
+library(readr)
+```
+
+# Import des données
+```{r}
+netflix_titles <- read_csv("R_data/netflix_titles.csv")
+View(netflix_titles)
+```
+
+# Requête SQL
+
+## Nombre de film et série au cours du temps
+```{r}
+sqldf("SELECT type, release_year, COUNT(*) as count
+FROM netflix_titles
+GROUP BY type, release_year
+      ")
+```
+
+## Nombre total de film et série avec pourcentage
+
+```{r}
+sqldf("SELECT type, COUNT(*) AS count
+FROM netflix_titles
+GROUP BY type
+      ")
+
+sqldf("SELECT type, COUNT(*) * 100.0 / (SELECT COUNT(*) FROM netflix_titles) AS percentage
+FROM netflix_titles
+GROUP BY type
+      ")
+```
+
+## Nombre film et série par pays
+
+```{r}
+sqldf("SELECT type, country, COUNT(*) AS count
+FROM netflix_titles
+GROUP BY type, country")
+```
+
+## TOP 10 des classements de film (équivalent PEGI fr)
+
+```{r}
+sqldf("SELECT rating, COUNT(*) AS count
+FROM netflix_titles
+GROUP BY rating
+ORDER BY count DESC
+LIMIT 10;
+      ")
+```
+
+
+
+## Durée moyenne série en saisons et fime en minutes
+
+```{r}
+sqldf("SELECT type, AVG(CAST(REPLACE(REPLACE(REPLACE(duration, ' min', ''), ' Season', ''), ' Seasons', '') AS UNSIGNED)) AS average_duration
+FROM netflix_titles
+GROUP BY type;
+      ")
+```
+
+
+
+
