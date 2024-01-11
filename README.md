@@ -1,19 +1,20 @@
 # Portfolio
-# Project 1: Déplacements en vélo à Londres
+# Project 1: Analyses de la distribution des films et séries sur Netflix
 
-## Objectif: Créer un Dashboard pour ces données disponible
-
+## Objectif: Créer un Dashboard 
 - nombre de trajet à vélo totale
 - évolution du nombre de vélo au cours du temps
 - Distribution entre des trajets selon différentes variables clé (vitesse du vent,température, heure)
 
 ## Etape clé
-- Import des données via l'API de kaggle sur R
-- Préparations et nettoyage des données sur R
+- Import des données 
+- Data management sur python
+- Ecriture de reqûete SQL afin de visualiser les informations pertinentes 
 - Utilisation des différentes fonction de Tableau pour différentes représentation:
-  - tableau de chaleur
+  - Cartographie
   - barchart
   - lineplot
+  - Curseur dynamiques
  
 ## Résulats du Dashboard 
-Voici une imagee
+Voici une image
