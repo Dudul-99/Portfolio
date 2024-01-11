@@ -18,3 +18,21 @@
  
 ## Résulats du Dashboard 
 Voici une image
+
+
+# Project 2: Création d'une application R-Shiny afin de visualiser les données de ventes d'une entreprise
+
+## Objectif: Créer un Dashboard avec plusieurs sections
+- Information générale avec les revenus et les profits
+- Information spécifiques aux clients
+- Information spécifiques aux produits commandés
+- Information spécifiques sur le mode de livraison
+
+## Etape clé:
+- Import et management des données sur R  (dplyr, janitor, readr, tidyverse)
+- Transformation des données (lubridate, dplyr)
+- Visualisation (plotly, highcharter, shinny)
+
+## Résultats du Dashboard
+
+Voici une image
