@@ -1,5 +1,5 @@
 # Portfolio
-# [Project 1: Analyses de la distribution des films et séries sur Netflix] (https://github.com/Dudul-99/Portfolio/blob/main/Exploration%20du%20dataframe%20Netflix%20avec%20python.ipynb)
+# Project 1: Analyses de la distribution des films et séries sur Netflix
 ## Objectif: Créer un Dashboard 
 - Nombre total de films et séries
 - Evolution au cours du temps des films et séries
@@ -17,6 +17,9 @@
  
 ## Résulats du Dashboard 
 Voici une image
+
+## Lien vers les notebooks et vers la visualisation :
+[notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Exploration%20du%20dataframe%20Netflix%20avec%20python.ipynb)
 
 
 # Project 2: Création d'une application R-Shiny afin de visualiser les données de ventes d'une entreprise
