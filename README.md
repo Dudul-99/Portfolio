@@ -16,7 +16,7 @@
  
 ## Résulats du Dashboard 
 
-<img src="/images/portfolio_gihub.png" width="60%" height="50%">
+<img src="images/portfolio_gihub.png" width="60%" height="50%">
 
 ### Lien vers les notebooks et vers la visualisation :
 - [notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Exploration%20du%20dataframe%20Netflix%20avec%20python.ipynb)
@@ -56,7 +56,7 @@
 
 ## Résultats
 
-<img src="/images/pie_github.png" width="40%" height="35%"> , <img src="/images/bar_plot_git.png" width="45%" height="40%">
+<img src="images/pie_github.png" width="40%" height="35%"> , <img src="images/bar_plot_git.png" width="45%" height="40%">
 
 ### Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Analyses%20de%20ventes.ipynb)
