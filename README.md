@@ -5,7 +5,7 @@
 - Evolution au cours du temps des films et séries
 - Distribution des films et séries selon plusieurs indicateurs (Pays, genres, catégories, etc...)
 
-## Etapes clé:
+## Étapes clés:
 - Import des données 
 - Data management sur python
 - Ecriture de reqûete SQL afin de visualiser les informations pertinentes 
@@ -23,7 +23,7 @@
 - [notebook R/SQL](https://github.com/Dudul-99/Portfolio/blob/main/code_sql.Rmd)
 - [Dashboard Tableau](https://public.tableau.com/app/profile/abdul.boura/viz/DescriptiondesfilmsetsriessurNetflix/Netflix)
 
-# Project 2: Création d'une application R-Shiny afin de visualiser les données de ventes d'une entreprise
+# Projet 2: Application R-Shiny afin de visualiser les données de ventes d'une entreprise
 
 ## Objectif: Créer un Dashboard avec plusieurs sections
 - Information générale avec les revenus et les profits
@@ -31,20 +31,23 @@
 - Information spécifiques aux produits commandés
 - Information spécifiques sur le mode de livraison
 
-## Etape clé:
+## Étapes clés:
 - Import et management des données sur R  (dplyr, janitor, readr, tidyverse)
 - Transformation des données (lubridate, dplyr)
 - Visualisation (plotly, highcharter, shinny)
 
 ## Résultats du Dashboard
+![](https://github.com/Dudul-99/Portfolio/blob/main/images/App_shiny.png)
 
-Voici une image
+## Lien vers le notebook:
+- [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
+
 
 # Project 3: Analyses des données de ventes d'une entreprise
 
 ## Objectif: Exploiter les différentes données afin de pouvoir apporter des informations pertinentes
 
-## Etape clé:
+## Étapes clés:
 - Import des données
 - Gestion et fusion des différentes données
 - Managements et mise en forme sur Python (pandas)
