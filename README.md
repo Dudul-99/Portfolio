@@ -36,3 +36,15 @@ Voici une image
 ## Résultats du Dashboard
 
 Voici une image
+
+# Project 3: Analyses des données de ventes d'une entreprise
+
+## Objectif: Exploiter les différentes données afin de pouvoir apporter des informations pertinentes
+
+## Etape clé:
+- Import des données
+- Gestion et fusion des différentes données
+- Managements et mise en forme sur Python (pandas)
+- Visualisation( plotly)
+
+
