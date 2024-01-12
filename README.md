@@ -38,7 +38,7 @@
 
 ## Résultats du Dashboard
 
-<img src="/images/App_shiny.png" width="60%" height="50%">
+<img src="images/App_shiny.png" width="60%" height="50%">
 
 ### Lien vers le notebook:
 - [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
