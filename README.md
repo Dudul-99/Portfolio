@@ -47,4 +47,6 @@ Voici une image
 - Managements et mise en forme sur Python (pandas)
 - Visualisation( plotly)
 
+## Résultats
+
 
