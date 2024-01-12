@@ -16,7 +16,7 @@
   - Curseur dynamiques
  
 ## Résulats du Dashboard 
-Voici une image
+![](https://github.com/Dudul-99/Portfolio/blob/main/images/portfolio_gihub.png)
 
 ## Lien vers les notebooks et vers la visualisation :
 - [notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Exploration%20du%20dataframe%20Netflix%20avec%20python.ipynb)
