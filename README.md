@@ -1,5 +1,4 @@
-# Portfolio
-# Project 1: Analyses de la distribution des films et séries sur Netflix
+# Projet 1: Analyses de la distribution des films et séries sur Netflix
 ## Objectif: Créer un Dashboard 
 - Nombre total de films et séries
 - Evolution au cours du temps des films et séries
@@ -19,7 +18,7 @@
 
 <img src="/images/portfolio_gihub.png" width="60%" height="50%">
 
-## Lien vers les notebooks et vers la visualisation :
+### Lien vers les notebooks et vers la visualisation :
 - [notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Exploration%20du%20dataframe%20Netflix%20avec%20python.ipynb)
 - [notebook R/SQL](https://github.com/Dudul-99/Portfolio/blob/main/code_sql.Rmd)
 - [Dashboard Tableau](https://public.tableau.com/app/profile/abdul.boura/viz/DescriptiondesfilmsetsriessurNetflix/Netflix)
@@ -41,7 +40,7 @@
 
 <img src="/images/App_shiny.png" width="60%" height="50%">
 
-## Lien vers le notebook:
+### Lien vers le notebook:
 - [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
 
 
@@ -59,7 +58,7 @@
 
 <img src="/images/pie_github.png" width="40%" height="35%"> , <img src="/images/bar_plot_git.png" width="45%" height="40%">
 
-## Lien vers le notebook:
+### Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Analyses%20de%20ventes.ipynb)
 
 
