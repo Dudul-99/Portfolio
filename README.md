@@ -1,4 +1,4 @@
-# Projet 1: Analyses de la distribution des films et séries sur Netflix
+# Projet 1: Analyse de la distribution des films et séries sur Netflix
 ## Objectif: Créer un Dashboard 
 - Nombre total de films et séries
 - Evolution au cours du temps des films et séries
@@ -44,7 +44,7 @@
 - [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
 
 
-# Project 3: Analyses des données de ventes d'une entreprise
+# Project 3: Analyse des données de ventes d'une entreprise
 
 ## Objectif: Exploiter les différentes données afin de pouvoir apporter des informations pertinentes
 
