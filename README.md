@@ -39,7 +39,7 @@
 
 ## Résultats du Dashboard
 
-<img src="https://github.com/Dudul-99/Portfolio/blob/main/images/App_shiny.png" width="60%" height="50%">
+<img src="/images/App_shiny.png" width="60%" height="50%">
 
 ## Lien vers le notebook:
 - [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
@@ -57,7 +57,7 @@
 
 ## Résultats
 
-<img src="https://github.com/Dudul-99/Portfolio/blob/main/images/pie_github.png" width="40%" height="35%"> , <img src="https://github.com/Dudul-99/Portfolio/blob/main/images/bar_plot_git.png" width="45%" height="40%">
+<img src="/images/pie_github.png" width="40%" height="35%"> , <img src="/images/bar_plot_git.png" width="45%" height="40%">
 
 ## Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Analyses%20de%20ventes.ipynb)
