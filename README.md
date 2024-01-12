@@ -2,11 +2,11 @@
 # Project 1: Analyses de la distribution des films et séries sur Netflix
 
 ## Objectif: Créer un Dashboard 
-- nombre de trajet à vélo totale
-- évolution du nombre de vélo au cours du temps
-- Distribution entre des trajets selon différentes variables clé (vitesse du vent,température, heure)
+- Nombre total de films et séries
+- Evolution au cours du temps des films et séries
+- Distribution des films et séries selon plusieurs indicateurs (Pays, genres, catégories, etc...)
 
-## Etape clé
+## Etapes clé:
 - Import des données 
 - Data management sur python
 - Ecriture de reqûete SQL afin de visualiser les informations pertinentes 
