@@ -57,8 +57,7 @@
 
 ## Résultats
 
-<img src="https://github.com/Dudul-99/Portfolio/blob/main/images/pie_github.png" width="30%" height="25%">
-<img src="https://github.com/Dudul-99/Portfolio/blob/main/images/bar_plot_git.png" width="30%" height="25%">
+<img src="https://github.com/Dudul-99/Portfolio/blob/main/images/pie_github.png" width="30%" height="25%"> , <img src="https://github.com/Dudul-99/Portfolio/blob/main/images/bar_plot_git.png" width="30%" height="25%">
 
 ## Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Analyses%20de%20ventes.ipynb)
