@@ -1,20 +1,20 @@
 # Projet 1: Analyse de la distribution des films et séries sur Netflix
 ## Objectif: Créer un Dashboard 
 - Nombre total de films et séries
-- Evolution au cours du temps des films et séries
-- Distribution des films et séries selon plusieurs indicateurs (Pays, genres, catégories, etc...)
+- Évolution au cours du temps des films et séries
+- Distribution des films et séries selon plusieurs indicateurs (Pays, genres, catégories, etc.
 
 ## Étapes clés:
 - Import des données 
 - Data management sur python
-- Ecriture de reqûete SQL afin de visualiser les informations pertinentes 
-- Utilisation des différentes fonction de Tableau pour différentes représentation:
+- Écriture de requête SQL afin de visualiser les informations pertinentes 
+- Utilisation des différentes fonctions de Tableau pour différentes représentations:
   - Cartographie
-  - barchart
-  - lineplot
-  - Curseur dynamiques
+  - Barchart
+  - Lineplot
+  - Curseur dynamique
  
-## Résulats du Dashboard 
+## Résultat du Dashboard
 
 <img src="images/portfolio_gihub.png" width="100%" height="90%">
 
@@ -27,16 +27,16 @@
 
 ## Objectif: Créer un Dashboard avec plusieurs sections
 - Information générale avec les revenus et les profits
-- Information spécifiques aux clients
-- Information spécifiques aux produits commandés
-- Information spécifiques sur le mode de livraison
+- Information spécifique aux clients
+- Information spécifique aux produits commandés
+- Information spécifique sur le mode de livraison
 
 ## Étapes clés:
 - Import et management des données sur R  (dplyr, janitor, readr, tidyverse)
 - Transformation des données (lubridate, dplyr)
 - Visualisation (plotly, highcharter, shinny)
 
-## Résultats du Dashboard
+## Résultat du Dashboard
 
 <img src="images/App_shiny.png" width="100%" height="100%">
 
@@ -44,7 +44,7 @@
 - [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
 
 
-# Project 3: Analyse des données de ventes d'une entreprise
+# Projet 3: Analyse des données de ventes d'une entreprise
 
 ## Objectif: Exploiter les différentes données afin de pouvoir apporter des informations pertinentes
 
