@@ -79,7 +79,7 @@
 
 ## Résultats
 
-<img src="images/rang kaggle house price" width="60%" height="55%"> 
+<img src="images/rang kaggle house price.png" width="60%" height="55%"> 
 
 ### Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/house_prediction.ipynb)
