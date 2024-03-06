@@ -63,3 +63,42 @@
 
 
 
+# Projet 4: Prédiction du prix des maisons de la vielle d'Ames dans l'iowa (US).
+
+## Objectif: Exploiter le jeu de donnée fournit par kaggle afin de prédire le prix des maisons à l'aide des informations disponibles. 
+
+## Étapes clés:
+- Import des données
+- Data management et visualisations des variables 
+- Exploration des relations entre les variables explicatives et la variable cible
+- Selection des modèles de machine learning adapté à notre objectif
+- Entraînement des modèles sur données 'Train'
+- Evaluation de la qualité du modèle sur critères retenue (ici RMSE ou racine de l'erreur quadratique moyenne)
+- Utilisation du modèle entrainé sur les données 'Test' afin de prédire le prix
+- Soumission des résulats sur Kaggle
+
+## Résultats
+
+<img src="images/rang kaggle house price" width="60%" height="55%"> 
+
+### Lien vers le notebook:
+- [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/house_prediction.ipynb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
