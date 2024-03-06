@@ -63,7 +63,7 @@
 
 
 
-# Projet 4: Prédiction du prix des maisons de la vielle d'Ames dans l'iowa (US).
+# Projet 4: Prédiction du prix des maisons de la ville d'Ames dans l'iowa (US).
 
 ## Objectif: Exploiter le jeu de donnée fournit par kaggle afin de prédire le prix des maisons à l'aide des informations disponibles. 
 
@@ -86,6 +86,8 @@ Ce travail m'a permit de finir dans le Top 5% de Kaggle sur cette compétition.
 ### Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/house_prediction.ipynb)
 
+### Lien vers la compétition:
+- [Compétition Kaggle](https://www.kaggle.com/competitions/home-data-for-ml-course/overview)
 
 
 
