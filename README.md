@@ -79,6 +79,8 @@
 
 ## Résultats
 
+Ce travail m'a permit de finir dans le Top 5% de Kaggle sur cette compétition.
+
 <img src="images/rang kaggle house price.png" width="60%" height="55%"> 
 
 ### Lien vers le notebook:
