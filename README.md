@@ -44,22 +44,26 @@
 - [Notebook R](https://github.com/Dudul-99/Portfolio/blob/main/Dashboard_ventes.R)
 
 
-# Projet 3: Analyse des données de ventes d'une entreprise
+# Projet 3: Prédiction sur la probabilité d'être transporté dans une autre dimension à bord du Space Titanic
 
-## Objectif: Exploiter les différentes données afin de pouvoir apporter des informations pertinentes
+## Objectif: Développer un modèle de classification binaire afin d'identifier les individus transporté dans une autre dimension
 
 ## Étapes clés:
 - Import des données
-- Gestion et fusion des différentes données
-- Managements et mise en forme sur Python (pandas)
-- Visualisation( plotly)
+- Analyses exploratoires (pandas)
+- Managements et data processing des données (création de variables,gestions des valeurs manquantes,encoding des variables, créations de pipeline de transformation)
+- Visualisation des variables (seaborn/matplotlib)
+- Modelisation (utilisation des modèles de prédiciton sur Scikit-learn et sélection/hyperparamétrisation à l'aide de GridSearch)
+- Estimation de la qualité du modèle (utilisation de la métrique 'Acuracy' pour sélectionner le meilleur modèle, visualisation de la courbe d'apprentissage)
+- Soumission sur Kaggle avec classement dans les Top 38%
 
 ## Résultats
 
-<img src="images/pie_github.png" width="60%" height="55%"> ,    <img src="images/git_image.png" width="85%" height="80%">
+<img src="images/learning curve.png" width="60%" height="55%"> 
 
 ### Lien vers le notebook:
-- [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/Analyses%20de%20ventes.ipynb)
+- [Notebook python](https://github.com/Dudul-99/Portfolio/blob/88979a53103bfed5d5e0984f23f3b4b32cb96564/space_titanice.ipynb)
+
 
 
 
