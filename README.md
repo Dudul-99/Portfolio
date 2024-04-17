@@ -64,6 +64,8 @@
 ### Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/88979a53103bfed5d5e0984f23f3b4b32cb96564/space_titanice.ipynb)
 
+### Lien vers la compétion:
+- [Compétition spaceship](https://www.kaggle.com/competitions/spaceship-titanic/leaderboard#)
 
 
 
