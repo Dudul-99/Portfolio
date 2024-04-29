@@ -39,9 +39,9 @@
 - [notebook R/SQL](https://github.com/Dudul-99/Portfolio/blob/main/code_sql.Rmd)
 - [Dashboard Tableau](https://public.tableau.com/app/profile/abdul.boura/viz/DescriptiondesfilmsetsriessurNetflix/Netflix)
 
-# Projet 2: Application R-Shiny afin de visualiser les données de ventes d'une entreprise
+# Projet 2: Application R-Shiny pour la visualisation des données de ventes d'une entreprise
 
-## Objectif: Créer un Dashboard avec plusieurs sections
+## Objectif: Développer un Dashboard interactif avec R-Shiny pour présenter les données de ventes de l'entreprise, en mettant l'accent sur différentes sections pour une analyse approfondie.
 - Information générale avec les revenus et les profits
 - Information spécifique aux clients
 - Information spécifique aux produits commandés
