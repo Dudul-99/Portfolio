@@ -1,5 +1,7 @@
 # Projet 1: Analyse de la distribution des films et séries sur Netflix
-## Objectif: Créer un Dashboard interractif sur Tableau
+## Objectif: 
+Créer un Dashboard interractif à l'aide de l'outil BI Tableau
+
 
 ### Contenu du Dashboard 
 - Nombre total de films et séries.
@@ -81,18 +83,47 @@ Développer un Dashboard interactif avec R-Shiny pour présenter les données de
 
 # Projet 3: Prédiction sur la probabilité d'être transporté dans une autre dimension à bord du Space Titanic
 
-## Objectif: Développer un modèle de classification binaire afin d'identifier les individus transporté dans une autre dimension
+## Objectif: 
+Développer un modèle de classification binaire pour identifier les individus susceptibles d'être transportés dans une autre dimension à bord du Space Titanic.
 
-## Étapes clés:
+### Étapes clés:
 - Import des données
-- Analyses exploratoires (pandas)
-- Managements et data processing des données (création de variables,gestions des valeurs manquantes,encoding des variables, créations de pipeline de transformation)
-- Visualisation des variables (seaborn/matplotlib)
-- Modelisation (utilisation des modèles de prédiciton sur Scikit-learn et sélection/hyperparamétrisation à l'aide de GridSearch)
-- Estimation de la qualité du modèle (utilisation de la métrique 'Acuracy' pour sélectionner le meilleur modèle, visualisation de la courbe d'apprentissage)
-- Soumission sur Kaggle avec classement dans les Top 38%
+  - Récupération des données liées aux passagers du Space Titanic sur Kaggle.
 
-## Résultats
+- Analyses exploratoires (EDA)
+  - Utilisation de Pandas pour explorer et comprendre la structure des données.
+  - Utilisation de Seaborn et Matplotlib pour visualiser les distributions et relations entre les variables.
+
+- Management et data processing des données
+  - Gestion des valeurs manquantes.(Imputation simple)
+  - Création de variables pertinentes.
+  - Encodage des variables catégorielles.(one-hot encoding)
+  - Création de pipelines de transformation à l'aide de Scikit-learn.
+
+- Modélisation
+  - Sélection des modèles pertinents à notre problématique.
+  - Utilisation des modèles de prédiction disponibles dans Scikit-learn.
+  - Sélection et hyperparamétrisation des modèles à l'aide de GridSearch pour améliorer les performances.
+
+- Estimation de la qualité du modèle
+  - Utilisation de la métrique 'Accuracy' pour évaluer et sélectionner le meilleur modèle.
+  - Visualisation de la courbe d'apprentissage pour évaluer les performances du modèle.
+
+- Soumission sur Kaggle
+  - Présentation des résultats avec un classement dans les Top 38% sur Kaggle.
+
+- Création d'une application Flask
+  - Développement d'une application Flask pour permettre l'utilisation du modèle obtenu en local.
+
+- Déploiement sur le cloud avec Heroku
+  - Mise à disposition en ligne de l'application Flask grâce à l'outil Heroku et de GitHub.
+
+### Avantages du projet
+- Fournit un modèle de prédiction robuste pour identifier les individus susceptibles d'être transportés dans une autre dimension à bord du Space Titanic.
+- Utilisation efficace de techniques de data science pour la préparation, la modélisation et l'évaluation des données.
+- Déploiement d'une application pratique en ligne pour une utilisation facile par les utilisateurs finaux.
+
+### Résultats
 
 <img src="images/learning curve.png" width="60%" height="55%"> 
 
@@ -104,23 +135,40 @@ Développer un Dashboard interactif avec R-Shiny pour présenter les données de
 
 
 
-# Projet 4: Prédiction du prix des maisons de la ville d'Ames dans l'iowa (US).
+# Projet 4: Prédiction du prix des maisons de la ville d'Ames dans l'iowa (États-Unis).
 
-## Objectif: Exploiter le jeu de donnée fournit par kaggle afin de prédire le prix des maisons à l'aide des informations disponibles. 
+## Objectif: 
+Exploiter le jeu de données fourni par Kaggle afin de prédire le prix des maisons à Ames, Iowa, en utilisant les informations disponibles.
 
-## Étapes clés:
+### Étapes clés:
 - Import des données
-- Data management et visualisations des variables 
+  - Extraction des données du jeu de données fourni par Kaggle.
+
+- Data management et visualisation des variables
+  - Exploration des caractéristiques des données.(Pandas)
+  - Visualisation des distributions et des relations entre les variables.(Seaborn, matplotlib)
+
 - Exploration des relations entre les variables explicatives et la variable cible
-- Selection des modèles de machine learning adapté à notre objectif
-- Entraînement des modèles sur données 'Train'
-- Evaluation de la qualité du modèle sur critères retenue (ici RMSE ou racine de l'erreur quadratique moyenne)
-- Utilisation du modèle entrainé sur les données 'Test' afin de prédire le prix
-- Soumission des résulats sur Kaggle
+  - Analyse des corrélations entre les variables explicatives et le prix des maisons.
+
+- Sélection des modèles de machine learning adaptés à notre objectif
+  - Choix des algorithmes de régression adaptés à la prédiction du prix des maisons.
+
+- Entraînement des modèles sur les données 'Train'
+  - Division des données en ensembles d'entraînement et de validation.
+  - Entraînement des modèles sélectionnés sur les données d'entraînement.
+
+- Évaluation de la qualité du modèle sur critères retenus (RMSE)
+  - Utilisation de la racine de l'erreur quadratique moyenne (RMSE) pour évaluer la performance des modèles.
+
+- Utilisation du modèle entraîné sur les données 'Test' pour prédire le prix
+  - Application du modèle entraîné sur un ensemble de données de test pour prédire les prix des maisons.
+
+- Soumission des résultats sur Kaggle
+  - Soumission des prédictions sur Kaggle pour évaluation.
 
 ## Résultats
-
-Ce travail m'a permit de finir dans le Top 5% de Kaggle sur cette compétition.
+Ce travail a permis de finir dans le Top 5% de Kaggle sur cette compétition, démontrant ainsi l'efficacité du modèle développé pour prédire le prix des maisons à Ames, Iowa.
 
 <img src="images/rang kaggle house price.png" width="60%" height="55%"> 
 
