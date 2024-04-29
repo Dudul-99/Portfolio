@@ -1,8 +1,13 @@
 # Projet 1: Analyse de la distribution des films et séries sur Netflix
-## Objectif: Créer un Dashboard 
-- Nombre total de films et séries
-- Évolution au cours du temps des films et séries
-- Distribution des films et séries selon plusieurs indicateurs (Pays, genres, catégories, etc.
+## Objectif: Créer un Dashboard interractif sur Tableau
+
+### Contenu du Dashboard 
+- Nombre total de films et séries.
+- Évolution au cours du temps des films et séries.
+- Distribution des films et séries selon plusieurs indicateurs:
+  - Pays
+  - Genres
+  - Catégories, etc.
 
 ## Étapes clés:
 - Import des données 
