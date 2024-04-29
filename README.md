@@ -41,16 +41,35 @@
 
 # Projet 2: Application R-Shiny pour la visualisation des données de ventes d'une entreprise
 
-## Objectif: Développer un Dashboard interactif avec R-Shiny pour présenter les données de ventes de l'entreprise, en mettant l'accent sur différentes sections pour une analyse approfondie.
-- Information générale avec les revenus et les profits
-- Information spécifique aux clients
-- Information spécifique aux produits commandés
-- Information spécifique sur le mode de livraison
+## Objectif: 
+Développer un Dashboard interactif avec R-Shiny pour présenter les données de ventes de l'entreprise, en mettant l'accent sur différentes sections pour une analyse approfondie.
 
-## Étapes clés:
-- Import et management des données sur R  (dplyr, janitor, readr, tidyverse)
-- Transformation des données (lubridate, dplyr)
-- Visualisation (plotly, highcharter, shinny)
+
+### Contenu du Dashboard 
+- Informations générales :
+   - Revenus totaux
+   - Profits cumulés
+- Informations spécifiques aux clients:
+  - Analyse des achats par client
+  - Segmentation des clients selon leurs comportements d'achat
+- Informations spécifiques aux produits commandés :
+  - Top produits vendus
+  - Analyse des tendances de vente par produit
+- Informations spécifiques sur le mode de livraison :
+  - Répartition des modes de livraison utilisés
+  - Performance des différents modes de livraison
+### Étapes clés:
+- Import et gestion des données sur R
+  - Utilisation des packages comme dplyr, janitor, readr, et tidyverse pour importer et manipuler les données.
+- Transformation des données
+  - Utilisation de lubridate et dplyr pour notamment la manipulation des dates et la transformation des données en vue de l'analyse.
+- Visualisation
+   - Utilisation de packages tels que plotly, highcharter, et shiny pour créer des visualisations interactives dans le Dashboard.
+
+### Avantages du Dashboard
+- Offre une vue globale et détaillée des performances de ventes de l'entreprise.
+- Permet d'identifier des tendances, des opportunités et des problèmes potentiels.
+- Facilite la prise de décision en fournissant des informations pertinentes de manière interactive.
 
 ## Résultat du Dashboard
 
