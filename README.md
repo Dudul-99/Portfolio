@@ -9,17 +9,28 @@
   - Genres
   - Catégories, etc.
 
-## Étapes clés:
-- Import des données 
+### Étapes clés:
+- Import des données
+   - Sélection et récupération des données Netflix.
 - Data management sur python
-- Écriture de requête SQL afin de visualiser les informations pertinentes 
-- Utilisation des différentes fonctions de Tableau pour différentes représentations:
-  - Cartographie
-  - Barchart
-  - Lineplot
-  - Curseur dynamique
- 
-## Résultat du Dashboard
+   - Nettoyage et préparation des données pour l'analyse.
+     - Valeurs manquantes, types des variables, cohérences du noms des variables.
+- Écriture de requête SQL
+  - Utilisation de SQL pour extraire les informations pertinentes.
+    - Select, GROUP BY, Count..
+- Utilisation des fonctionnalités de Tableau.
+  - Mise en œuvre des différentes fonctions de Tableau pour des représentations efficaces :
+     - Cartographie pour la distribution géographique des contenus.
+     - Barchart pour la visualisation des données catégorielles.
+     - Lineplot pour l'évolution temporelle du contenu.
+     - Curseur dynamique pour une interactivité accrue.
+
+### Avantages du Dashboard
+- Visualisation claire et précise de la distribution des films et séries sur Netflix.
+- Facilité d'accès et d'interaction pour les parties prenantes.
+- Possibilité d'identifier les tendances et les préférences des utilisateurs.
+
+### Résultat du Dashboard
 
 <img src="images/portfolio_gihub.png" width="100%" height="90%">
 
