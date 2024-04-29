@@ -125,7 +125,8 @@ Développer un modèle de classification binaire pour identifier les individus s
 
 ### Résultats
 
-<img src="images/learning curve.png" width="60%" height="55%"> 
+<img src="images/learning curve.png" width="60%" height="55%">, <img src="images/features importances.png" width="60%" height="55%"> 
+<img src="images/flask-app.jpeg" width="60%" height="55%">
 
 ### Lien vers le notebook:
 - [Notebook python](https://github.com/Dudul-99/Portfolio/blob/88979a53103bfed5d5e0984f23f3b4b32cb96564/space_titanice.ipynb)
