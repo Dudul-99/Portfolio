@@ -60,6 +60,7 @@ Développer un Dashboard interactif avec R-Shiny pour présenter les données de
 - Informations spécifiques sur le mode de livraison :
   - Répartition des modes de livraison utilisés
   - Performance des différents modes de livraison
+
 ### Étapes clés:
 - Import et gestion des données sur R
   - Utilisation des packages comme dplyr, janitor, readr, et tidyverse pour importer et manipuler les données.
