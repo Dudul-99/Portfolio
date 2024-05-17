@@ -189,6 +189,8 @@ Développer un projet ETL permettant à partir de l’API de la NBA de construir
 ### Résultats
 
 Stephen curry quick insight
+
+
 <img src="images/Stephen curry 3point made.png" width="60%" height="55%"> 
 
 ### Lien vers le notebook:
