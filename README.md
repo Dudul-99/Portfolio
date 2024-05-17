@@ -150,7 +150,7 @@ Développer un projet ETL permettant à partir de l’API de la NBA de construir
 
 - Création du modèle d'analyse
 
-<img src="images/etl structure.png" width="70%" height="65%"> 
+<img src="images/etl structure.png" width="80%" height="75%"> 
 
 - Utilisation des library boto3, pandas, request..
 
@@ -161,22 +161,23 @@ Développer un projet ETL permettant à partir de l’API de la NBA de construir
   - Datawarehouse pertient car expérience agréable, bon documentation pour les connexions avec les fournisseurs cloud et permet requete/visualisation SQL
 
 - Création des autorisation d'accès sur IAM (AWS)
- - Autorisation de l'accès au bucket S3 à mon script python via clé d'identification sécurisé
- - Autorisation de la connexion du bucket S3 à mon compte snowflake afin de créer la base de données SQL via clé d'identification sécurisé
+  - Autorisation de l'accès au bucket S3 à mon script python via clé d'identification sécurisé
+  - Autorisation de la connexion du bucket S3 à mon compte snowflake afin de créer la base de données SQL via clé d'identification sécurisé
 
 - Ecriture du script python
- - Utilisation de boto3 pour permettre l'ecriture dans notre bucket S3
- - Transformation des données brut (JSON) au format csv
- - Chargement des données transformé dans S3
+  - Utilisation de boto3 pour permettre l'ecriture dans notre bucket S3
+  - Transformation des données brut (JSON) au format csv
+  - Chargement des données transformé dans S3
+
 
 - Connexion de S3 à snowflake
- - Permet la connexion continue entre S3 et la database snowflake
- - Création des tables
+  - Permet la connexion continue entre S3 et la database snowflake
+  - Création des tables
 
 - Analyse des données
- - Ecriture de requete SQL
- - Visualisation
- - Exportation des informations pertinentes
+  - Ecriture de requete SQL
+  - Visualisation
+  - Exportation des informations pertinentes
 
 
 ### Avantages du projet
