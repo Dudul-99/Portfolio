@@ -135,49 +135,63 @@ Développer un modèle de classification binaire pour identifier les individus s
 - [Compétition spaceship](https://www.kaggle.com/competitions/spaceship-titanic/leaderboard#)
 
 
-
-# Projet 4: Prédiction du prix des maisons de la ville d'Ames dans l'iowa (États-Unis).
+# Projet 4: Création d’une base de donnée SQL rassemblant les informations des joueurs et équipes NBA.
 
 ## Objectif: 
-Exploiter le jeu de données fourni par Kaggle afin de prédire le prix des maisons à Ames, Iowa, en utilisant les informations disponibles.
+Développer un projet ETL permettant à partir de l’API de la NBA de construire une base de données à l’aide d’outil cloud et de pipeline de transfert de données.
 
 ### Étapes clés:
-- Import des données
-  - Extraction des données du jeu de données fourni par Kaggle.
+- Documentation de l'API NBA sur le gitHub
+ - Type d'API, coût, donnée accessible..
 
-- Data management et visualisation des variables
-  - Exploration des caractéristiques des données.(Pandas)
-  - Visualisation des distributions et des relations entre les variables.(Seaborn, matplotlib)
+- EDA sur notebook jupyter
+ - Identification des KPIs pertinents, variable pour clé d'identification, qualité des données
 
-- Exploration des relations entre les variables explicatives et la variable cible
-  - Analyse des corrélations entre les variables explicatives et le prix des maisons.
+- Création du modèle d'analyse
+<img src="images/etl structure.png" width="60%" height="55%"> 
+ - Utilisation des library boto3, pandas, request..
 
-- Sélection des modèles de machine learning adaptés à notre objectif
-  - Choix des algorithmes de régression adaptés à la prédiction du prix des maisons.
+- Création du bucket S3 sur AWS
+  - Datalake gratuit pour notre problématique afin de stocker les données dans un premier temps
 
-- Entraînement des modèles sur les données 'Train'
-  - Division des données en ensembles d'entraînement et de validation.
-  - Entraînement des modèles sélectionnés sur les données d'entraînement.
+- Création d'un compte d'essaie gratuit (30j) snowflake
+  - Datawarehouse pertient car expérience agréable, bon documentation pour les connexions avec les fournisseurs cloud et permet requete/visualisation SQL
 
-- Évaluation de la qualité du modèle sur critères retenus (RMSE)
-  - Utilisation de la racine de l'erreur quadratique moyenne (RMSE) pour évaluer la performance des modèles.
+- Création des autorisation d'accès sur IAM (AWS)
+ - Autorisation de l'accès au bucket S3 à mon script python via clé d'identification sécurisé
+ - Autorisation de la connexion du bucket S3 à mon compte snowflake afin de créer la base de données SQL via clé d'identification sécurisé
 
-- Utilisation du modèle entraîné sur les données 'Test' pour prédire le prix
-  - Application du modèle entraîné sur un ensemble de données de test pour prédire les prix des maisons.
+- Ecriture du script python
+ - Utilisation de boto3 pour permettre l'ecriture dans notre bucket S3
+ - Transformation des données brut (JSON) au format csv
+ - Chargement des données transformé dans S3
 
-- Soumission des résultats sur Kaggle
-  - Soumission des prédictions sur Kaggle pour évaluation.
+- Connexion de S3 à snowflake
+ - Permet la connexion continue entre S3 et la database snowflake
+ - Création des tables
 
-## Résultats
-Ce travail a permis de finir dans le Top 5% de Kaggle sur cette compétition, démontrant ainsi l'efficacité du modèle développé pour prédire le prix des maisons à Ames, Iowa.
+- Analyse des données
+ - Ecriture de requete SQL
+ - Visualisation
+ - Exportation des informations pertinentes
 
-<img src="images/rang kaggle house price.png" width="60%" height="55%"> 
+
+### Avantages du projet
+
+- Développer compétence en data engineering (modélisation données, ETL)
+- Développer compétence sur les outils cloud pour le stockage et l'exploitation des données (aws,snowflake)
+- Accès rapide aux informations sur les joueurs/équipes NBA 
+
+### Résultats
+
+Stephen curry quick insight
+<img src="images/Stephen curry 3point made.png" width="60%" height="55%"> 
 
 ### Lien vers le notebook:
-- [Notebook python](https://github.com/Dudul-99/Portfolio/blob/main/house_prediction.ipynb)
 
-### Lien vers la compétition:
-- [Compétition Kaggle](https://www.kaggle.com/competitions/home-data-for-ml-course/overview)
+- lien vers project
+[lien vers le project](https://github.com/Dudul-99/project-S3)
+
 
 
 
