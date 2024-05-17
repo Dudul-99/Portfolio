@@ -141,6 +141,7 @@ Développer un modèle de classification binaire pour identifier les individus s
 Développer un projet ETL permettant à partir de l’API de la NBA de construire une base de données à l’aide d’outil cloud et de pipeline de transfert de données.
 
 ### Étapes clés:
+
 - Documentation de l'API NBA sur le gitHub
  - Type d'API, coût, donnée accessible..
 
@@ -148,8 +149,10 @@ Développer un projet ETL permettant à partir de l’API de la NBA de construir
  - Identification des KPIs pertinents, variable pour clé d'identification, qualité des données
 
 - Création du modèle d'analyse
-<img src="images/etl structure.png" width="60%" height="55%"> 
- - Utilisation des library boto3, pandas, request..
+
+<img src="images/etl structure.png" width="70%" height="65%"> 
+
+- Utilisation des library boto3, pandas, request..
 
 - Création du bucket S3 sur AWS
   - Datalake gratuit pour notre problématique afin de stocker les données dans un premier temps
